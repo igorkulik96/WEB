@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <link rel="stylesheet" href="style/my.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -15,17 +16,17 @@
     </header>
     <nav>
         <h2>Меню</h2>
-        <ul>
-            <li><a href="/">Position 1</a></li>
-            <li><a href="/">Position 2</a></li>
-            <li><a href="/">Position 3</a></li>
-            <li><a href="/">Position 4</a></li>
-            <li><a href="/">Position 5</a></li>
-            <li><a href="/">Position 6</a></li>
-            <li><a href="/">Position 7</a></li>
-            <li><a href="/">Position 8</a></li>
-            <li><a href="/">Position 9</a></li>
-            <li><a href="/">Position 10</a></li>
+        <ul class="navbar navbar-light bg-light">
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 1</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 2</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 3</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 4</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 5</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 6</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 7</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 8</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 9</a></li>
+            <li class="nav-item"><a  class="nav-link active" aria-current="page" href="/">Position 10</a></li>
         </ul>
     </nav>
     <article>
@@ -35,16 +36,32 @@
             In fermentum volutpat euismod. Sed eget lobortis nisl, ac molestie nisi. Nam convallis et ligula nec finibus. Nunc et turpis sem. In eget ante interdum, dapibus dui non, condimentum dolor. Nam tincidunt, enim sit amet faucibus maximus, turpis leo molestie nisi, et dignissim erat ligula at nisi. Integer facilisis erat a lacus dapibus accumsan. Mauris libero dolor, varius a blandit et, accumsan id magna. Nunc cursus massa rutrum eros iaculis accumsan. Pellentesque eget orci neque.
             </p>
     </article>
-    <div>
+    <div class="content">
         <h2>Заголовок 2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit ligula enim, quis hendrerit sem viverra at. Aliquam vel feugiat orci, a iaculis purus. Proin tempor turpis non erat vestibulum facilisis. Duis in fermentum massa. Nam sem nunc, laoreet ac pellentesque et, malesuada euismod erat. Vestibulum pharetra pharetra mattis. Donec quis sem diam. Morbi convallis iaculis ex, molestie convallis ipsum cursus id. Suspendisse non eleifend ligula. Donec orci ligula, laoreet a porta id, aliquam sodales sem. Aenean pellentesque velit velit, nec porttitor nunc maximus in. Morbi urna velit, dignissim et placerat ac, gravida ut eros. Ut non nisi quis nisl efficitur molestie bibendum et sem. Fusce enim nisl, sagittis eu eleifend eget, gravida sed augue. Cras varius arcu at lacus vulputate, ac eleifend sapien blandit.
 
             In fermentum volutpat euismod. Sed eget lobortis nisl, ac molestie nisi. Nam convallis et ligula nec finibus. Nunc et turpis sem. In eget ante interdum, dapibus dui non, condimentum dolor. Nam tincidunt, enim sit amet faucibus maximus, turpis leo molestie nisi, et dignissim erat ligula at nisi. Integer facilisis erat a lacus dapibus accumsan. Mauris libero dolor, varius a blandit et, accumsan id magna. Nunc cursus massa rutrum eros iaculis accumsan. Pellentesque eget orci neque.
             </p>
     </div>
-    <footer>
-        <p class="foot">help@lipsum.com</p>
-        <p class="foot">&copy;Privacy Policy</p>
-    </footer>
+    
+    <div class="form_1">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    
 </body>
 </html>

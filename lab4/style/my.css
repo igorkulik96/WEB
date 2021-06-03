@@ -20,6 +20,7 @@ header{
     float: left;
     width: 80%;
     height: 20%;
+    font-size: 10px;
 }
 article{
     border: 3px solid black;
@@ -27,36 +28,40 @@ article{
     padding: 5px;
     margin-left: 11%;
     margin-top: 10.8%;
-    position: fixed;
     float: left;
     width: 80%;
     height: 30%;
+    font-size: 13px;
 }
-div{
+.content{
     border: 3px solid black;
     background: #ff0037;
     padding: 5px;
     margin-left: 11%;
-    margin-top: 26.5%;
-    position: fixed;
     float: left;
     width: 80%;
     height: 30%;
+    font-size: 13px;
 }
-footer{
-    border: 3px solid black;
-    background: #00ff0d;
-    padding: 5px;
-    margin-left: 11%;
-    margin-top: 41.7%;
-    position: fixed;
-    float: left;
-    width: 80%;
-    height: 10%;
-}
+
 .foot{
     text-align: center;
-    font-size: 15x;
+    font-size: 10x;
+}
+.form{
+    border: 3px solid black;
+    background: #ff0037;
+    padding: 5px;
+    margin-left: 11%;
+    margin-top: 10px;
+    float: left;
+    width: 80%;
+    height: 300px;
+    font-size: 13px;
+}
+form{
+    width: 80%;
+    margin-left: 11%;
 }
 #h1head{
 text-align: center;
